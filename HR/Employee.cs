@@ -15,7 +15,7 @@ internal class Employee
     private double hourlyRate;
     public DateTime birthday;
     public bool sacked;
-     public bool bonus;
+    public bool bonus;
     const int minimalHoursWorkedUnit = 1;
 
     //constructor 
@@ -25,7 +25,7 @@ internal class Employee
         lastName = last;
         email = em;
         birthday = bd;
-        hourlyRate = rate;
+        hourlyRate = (double) rate;
         sacked=false;
         bonus=false;
         hourlyRate = rate ?? 10;
@@ -79,7 +79,7 @@ internal class Employee
     }
     public void getBonus()
     {
-        if(firstName.equals("Mark"))
+        if(firstName == "Mark")
         {
             this.bonus=true;
         }
