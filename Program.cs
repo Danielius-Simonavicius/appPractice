@@ -30,7 +30,8 @@
             Bethany.RecieveWage();
             John.DisplayEmployeeDetails();
 
-            Console.WriteLine("Your boy Baljeet was here");
+            Console.WriteLine("Your boy Baljeet was fhere");
+            
         }
     }
 }
