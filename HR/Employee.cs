@@ -27,20 +27,6 @@ internal class Employee
         hourlyRate = rate ?? 10;
     }
 
-    public double? HourlyRate
-    {
-        get { return hourlyRate; }
-        set 
-        {
-            if(hourlyRate < 0){ //added validation logic to make sure wage cannot be set to minus values
-                hourlyRate = 0;
-            }
-            else{
-                hourlyRate = (double) value;
-            }
-        }
-    }
-
     public void PerformWork()
     {
         PerformWork(minimalHoursWorkedUnit);
@@ -67,4 +53,19 @@ internal class Employee
     {
         Console.WriteLine($"\nFirst name: \t{firstName}\nLast name: \t{lastName}\nEmail:\t\t{email}Birthday: \t{birthday.ToShortDateString()}\n");
     }
+
+        public double? HourlyRate
+    {
+        get { return hourlyRate; }
+        set 
+        {
+            if(hourlyRate < 0){ //added validation logic to make sure wage cannot be set to minus values
+                hourlyRate = 0;
+            }
+            else{
+                hourlyRate = (double) value;
+            }
+        }
+    }
+
 }
