@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danieljr/Desktop/Projects/appPractice/appPractice.csproj": {}
+    "/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/appPractice.csproj": {}
   },
   "projects": {
-    "/Users/danieljr/Desktop/Projects/appPractice/appPractice.csproj": {
+    "/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/appPractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danieljr/Desktop/Projects/appPractice/appPractice.csproj",
+        "projectUniqueName": "/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/appPractice.csproj",
         "projectName": "appPractice",
-        "projectPath": "/Users/danieljr/Desktop/Projects/appPractice/appPractice.csproj",
-        "packagesPath": "/Users/danieljr/.nuget/packages/",
-        "outputPath": "/Users/danieljr/Desktop/Projects/appPractice/obj/",
+        "projectPath": "/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/appPractice.csproj",
+        "packagesPath": "/Users/mehir/.nuget/packages/",
+        "outputPath": "/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danieljr/.nuget/NuGet/NuGet.Config"
+          "/Users/mehir/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
