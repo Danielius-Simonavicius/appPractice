@@ -29,6 +29,8 @@
             Bethany.HourlyRate = 10; // using property
             Bethany.RecieveWage();
             John.DisplayEmployeeDetails();
+
+            Console.WriteLine("Your boy Baljeet was here");
         }
     }
 }

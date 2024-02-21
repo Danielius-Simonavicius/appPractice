@@ -13,3 +13,18 @@
 /Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.genruntimeconfig.cache
 /Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/ref/appPractice.dll
 /Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.sourcelink.json
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/bin/Debug/net8.0/appPractice
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/bin/Debug/net8.0/appPractice.deps.json
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/bin/Debug/net8.0/appPractice.runtimeconfig.json
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/bin/Debug/net8.0/appPractice.dll
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/bin/Debug/net8.0/appPractice.pdb
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/Debug/net8.0/appPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/Debug/net8.0/appPractice.AssemblyInfoInputs.cache
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/Debug/net8.0/appPractice.AssemblyInfo.cs
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/Debug/net8.0/appPractice.csproj.CoreCompileInputs.cache
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/Debug/net8.0/appPractice.sourcelink.json
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/Debug/net8.0/appPractice.dll
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/Debug/net8.0/refint/appPractice.dll
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/Debug/net8.0/appPractice.pdb
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/Debug/net8.0/appPractice.genruntimeconfig.cache
+/Users/mehir/Library/Mobile Documents/com~apple~CloudDocs/GitHub/appPractice/obj/Debug/net8.0/ref/appPractice.dll
