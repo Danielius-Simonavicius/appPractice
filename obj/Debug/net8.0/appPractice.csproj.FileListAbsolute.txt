@@ -1,0 +1,14 @@
+/Users/danieljr/Desktop/Projects/appPractice/bin/Debug/net8.0/appPractice
+/Users/danieljr/Desktop/Projects/appPractice/bin/Debug/net8.0/appPractice.deps.json
+/Users/danieljr/Desktop/Projects/appPractice/bin/Debug/net8.0/appPractice.runtimeconfig.json
+/Users/danieljr/Desktop/Projects/appPractice/bin/Debug/net8.0/appPractice.dll
+/Users/danieljr/Desktop/Projects/appPractice/bin/Debug/net8.0/appPractice.pdb
+/Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.AssemblyInfoInputs.cache
+/Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.AssemblyInfo.cs
+/Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.csproj.CoreCompileInputs.cache
+/Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.dll
+/Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/refint/appPractice.dll
+/Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.pdb
+/Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.genruntimeconfig.cache
+/Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/ref/appPractice.dll
