@@ -12,3 +12,4 @@
 /Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.pdb
 /Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.genruntimeconfig.cache
 /Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/ref/appPractice.dll
+/Users/danieljr/Desktop/Projects/appPractice/obj/Debug/net8.0/appPractice.sourcelink.json
