@@ -14,7 +14,7 @@ internal class Employee
     public double wage;
     public double hourlyRate;
     public DateTime birthday;
-    public boolean sacked;
+    public bool sacked;
     const int minimalHoursWorkedUnit = 1;
 
     //constructor 
