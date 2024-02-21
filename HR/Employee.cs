@@ -7,19 +7,19 @@ namespace appPractice;
 
 internal class Employee
 {
-    private string firstName;
-    private string lastName;
+    public string firstName;
+    public string lastName;
     private string email;
-    public int numberOfHoursWorked;
-    public double wage;
-    public double hourlyRate;
+    private int numberOfHoursWorked;
+    private double wage;
+    private double hourlyRate;
     public DateTime birthday;
     public bool sacked;
      public bool bonus;
     const int minimalHoursWorkedUnit = 1;
 
     //constructor 
-    public Employee(string first, string last, string em, DateTime bd, double rate)
+    public Employee(string first, string last, string em, DateTime bd, double? rate)
     {
         firstName = first;
         lastName = last;
@@ -28,12 +28,13 @@ internal class Employee
         hourlyRate = rate;
         sacked=false;
         bonus=false;
+        hourlyRate = rate ?? 10;
     }
 
     public void PerformWork()
     {
-        numberOfHoursWorked++;
-        Console.WriteLine($"{firstName} {lastName} has worked for {numberOfHoursWorked} hour(s)!");
+        PerformWork(minimalHoursWorkedUnit);
+        // Console.WriteLine($"{firstName} {lastName} has worked for {numberOfHoursWorked} hour(s)!");
     }
     public void PerformWork(int numberOfHours)
     {
@@ -41,14 +42,42 @@ internal class Employee
         Console.WriteLine($"{firstName} {lastName} has worked for {numberOfHoursWorked} hour(s)!");
     }
 
-    public void DisplayEmployeeDetails(){
+    public double RecieveWage(bool resetHours = true)
+    {
+        wage = numberOfHoursWorked * hourlyRate;
+        Console.WriteLine($"{firstName} {lastName} has recieved a wage of {wage} for {numberOfHoursWorked} hour(s) of work.");
+        if (resetHours)
+        {
+            numberOfHoursWorked = 0;
+        }
+        return wage;
+    }
+
+    public void DisplayEmployeeDetails()
+    {
         Console.WriteLine($"\nFirst name: \t{firstName}\nLast name: \t{lastName}\nEmail:\t\t{email}Birthday: \t{birthday.ToShortDateString()}\n");
     }
+      
+  
+    public double? HourlyRate
+    {
+        get { return hourlyRate; }
+        set 
+        {
+            if(hourlyRate < 0){ //added validation logic to make sure wage cannot be set to minus values
+                hourlyRate = 0;
+            }
+            else{
+                hourlyRate = (double) value;
+            }
+        }
+    }
+
     public void setIsFired()
     {
         this.sacked=sacked;
     }
-     public void getBonus()
+    public void getBonus()
     {
         if(firstName.equals("Mark"))
         {
