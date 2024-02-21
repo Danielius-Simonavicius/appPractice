@@ -14,7 +14,7 @@ internal class Employee
     public double wage;
     public double hourlyRate;
     public DateTime birthday;
-
+    public boolean sacked;
     const int minimalHoursWorkedUnit = 1;
 
     //constructor 
@@ -25,6 +25,7 @@ internal class Employee
         email = em;
         birthday = bd;
         hourlyRate = rate;
+        sacked=false;
     }
 
     public void PerformWork()
@@ -40,5 +41,9 @@ internal class Employee
 
     public void DisplayEmployeeDetails(){
         Console.WriteLine($"\nFirst name: \t{firstName}\nLast name: \t{lastName}\nEmail:\t\t{email}Birthday: \t{birthday.ToShortDateString()}\n");
+    }
+    public void setIsFired()
+    {
+        this.sacked=sacked;
     }
 }
