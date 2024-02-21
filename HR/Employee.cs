@@ -24,6 +24,16 @@ internal class Employee
         lastName = last;
         email = em;
         birthday = bd;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         hourlyRate = rate ?? 10;
     }
 
