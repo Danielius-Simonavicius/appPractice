@@ -15,6 +15,7 @@ internal class Employee
     public double hourlyRate;
     public DateTime birthday;
     public bool sacked;
+     public bool bonus;
     const int minimalHoursWorkedUnit = 1;
 
     //constructor 
@@ -26,6 +27,7 @@ internal class Employee
         birthday = bd;
         hourlyRate = rate;
         sacked=false;
+        bonus=false;
     }
 
     public void PerformWork()
@@ -45,5 +47,12 @@ internal class Employee
     public void setIsFired()
     {
         this.sacked=sacked;
+    }
+     public void getBonus()
+    {
+        if(firstName.equals("Mark"))
+        {
+            this.bonus=true;
+        }
     }
 }
