@@ -15,7 +15,7 @@ internal class Employee
     private double hourlyRate;
     public DateTime birthday;
     public bool sacked = false;
-    public bool bonus;
+    private bool bonus;
     const int minimalHoursWorkedUnit = 1;
 
     public EmployeeType employeeType;
@@ -49,7 +49,10 @@ internal class Employee
     {
         numberOfHoursWorked += numberOfHours;
         Console.WriteLine($"{firstName} {lastName} has worked for {numberOfHoursWorked} hour(s)!");
+
+        // Console.WriteLine($"dorians name is {firstName} and his last name is {lastName}");
     }
+
 
     public void DisplayEmployeeDetails()
     {
@@ -60,6 +63,7 @@ internal class Employee
     public double HourlyRate
     {
         get { return hourlyRate; }
+        
         set
         {
             if (hourlyRate < 0)
@@ -90,10 +94,9 @@ internal class Employee
             bonus -= bonusTax;
         }
 
-        Console.WriteLine($"This employee got a bonus of {bonus} and the tax on the bonus is {bonusTax}");
+        Console.WriteLine($"{firstName} got a bonus of {bonus} and the tax on the bonus is {bonusTax}");
         return bonus;
     }
-
 
     public double RecieveWage(bool resetHours = true)
     {

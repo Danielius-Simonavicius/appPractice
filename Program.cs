@@ -7,31 +7,46 @@
             Console.WriteLine("Hello world");
 
             List<Employee> employees = new List<Employee>();
-            Employee Bethany = new Employee("Bethany", "Smith", "bethanySmith@email.com", new DateTime(1979, 1, 16),14,EmployeeType.Research);
-            Employee John = new Employee("John", "Baily", "John12@email.com", new DateTime(2004, 8, 10),2590,EmployeeType.Manager);
-            employees.Add(Bethany);
-            employees.Add(John);
+            Employee Dorian = new Employee("Dorian", "Kulakowski", "doriano2008@gmail.com", new DateTime(2004, 8, 15), 12, EmployeeType.Manager); //minimumwage wroker
+            Employee Mehir = new Employee("Mehir", "Hossin", "mehirtalukdar2017@gmail.com", new DateTime(2003, 12, 5), 10, EmployeeType.TechSupport);
+            Employee Danielius = new Employee("Danielius", "Simonavicius", "daniel@theguy.xyz", new DateTime(2004, 8, 10), 12, EmployeeType.TechSupport);
+            Employee Mark = new Employee("Mark", "Richie", "markRichie@gmail.com", new DateTime(1945, 12, 1), 15, EmployeeType.Dad);
+
+            employees.Add(Dorian);
+            employees.Add(Mehir);
+            employees.Add(Danielius);
+            employees.Add(Mark);
 
             //Employee highestHourlyRateEmployee = employees.OrderByDescending(x => 20>x.HourlyRate).FirstOrDefault(); //learning lambda expression x=>
             //Console.WriteLine($"highest paid employee is {highestHourlyRateEmployee}");
 
-            Bethany.HourlyRate = 50;
+            Dorian.HourlyRate = 50;
 
             int minimumBonus = 100;
             int bonusTax;
-            int recievedBonus = John.CalculateBonusAndTax(minimumBonus, out bonusTax);
-            
-            Bethany.PerformWork();
-            Bethany.PerformWork();
-            Bethany.PerformWork();
+            int recievedBonus = Mehir.CalculateBonusAndTax(minimumBonus, out bonusTax);
 
-            Bethany.firstName = "Bethany";
-            Bethany.HourlyRate = 10; // using property
-            Bethany.RecieveWage();
-            John.DisplayEmployeeDetails();
+            Dorian.PerformWork();
+            Dorian.PerformWork();
+            Dorian.PerformWork();
+            Dorian.firstName = "Bethany";
+            Dorian.HourlyRate = 14; // blud got a promotion
 
-            Console.WriteLine("Your boy Baljeet was fhere");
-            
+            double bonus = Mehir.CalculateBonusAndTax(5000,out bonusTax);
+
+            // Dorian.DisplayEmployeeDetails();
+            // Danielius.DisplayEmployeeDetails();
+            // Mehir.DisplayEmployeeDetails();
+            // Mark.DisplayEmployeeDetails();
+
+        }
+
+        public static int addNumbers(out int a, out int b)
+        {
+            a = 55;
+            b = 55;
+            int result = a + b;
+            return result;
         }
     }
 }

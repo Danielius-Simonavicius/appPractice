@@ -5,5 +5,7 @@ enum EmployeeType
     Sales,
     Manager,
     Research,
-    StoreManager    
+    StoreManager,
+    TechSupport,
+    Dad
 }
